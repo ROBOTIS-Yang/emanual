@@ -7,11 +7,12 @@ share: true
 author_profile: false
 permalink: /docs/en/platform/openmanipulator_x/ros_controller_msg/
 tabs: "ROS"
-tab_title1: Kinetic
+#tab_title1: Kinetic
 tab_title2: Noetic
-tab_title3: Dashing
-tab_title4: Foxy
-tab_title5: Arduino
+#tab_title3: Dashing
+#tab_title4: Foxy
+tab_title5: Humble
+tab_title6: Arduino
 sidebar:
   title: "OpenMANIPULATOR-X"
   nav: "openmanipulator_x"
@@ -33,13 +34,13 @@ page_number: 8
 
 ## [Message List](#message-list)
 
-<section data-id="{{ page.tab_title1 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title1 }}" class="tab_contents">
 **NOTE**:  
 Please launch the [OpenMANIPULATOR-X Controller](/docs/en/platform/openmanipulator_x/ros_controller_package/#launch-controller) before running this section.
 {: .notice--info}
 
 The controller uses **topic** and **service** to control and check the status of OpenMANIPULATOR-X.
-</section>
+</section> -->
 
 <section data-id="{{ page.tab_title2 }}" class="tab_contents">
 **NOTE**:  
@@ -49,64 +50,83 @@ Please launch the [OpenMANIPULATOR-X Controller](/docs/en/platform/openmanipulat
 The controller uses **topic** and **service** to control and check the status of OpenMANIPULATOR-X.
 </section>
 
-<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title3 }}" class="tab_contents">
 **NOTE**:  
 Please launch the [OpenMANIPULATOR-X Controller](/docs/en/platform/openmanipulator_x/ros_controller_package/#launch-controller) before running this section.
 {: .notice--info}
 
 The controller uses **topic** and **service** to control and check the status of OpenMANIPULATOR-X.
-</section>
+</section> -->
 
-<section data-id="{{ page.tab_title4 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 **NOTE**:  
 Please launch the [OpenMANIPULATOR-X Controller](/docs/en/platform/openmanipulator_x/ros_controller_package/#launch-controller) before running this section.
 {: .notice--info}
 
 The controller uses **topic** and **service** to control and check the status of OpenMANIPULATOR-X.
+</section> -->
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+**NOTE**:  
+If you want to learn more, please refer to the official documentation for MoveIt 2 and ros2_control:  
+[MoveIt 2 Documentation](https://moveit.picknik.ai/main/index.html)  
+[ros2_control Documentation](https://control.ros.org/humble/index.html)  
+{: .notice--info}
 </section>
+
 
 ### [Topic](#topic)
 
-<section data-id="{{ page.tab_title1 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title1 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_topic_kinetic.md %}
-</section>
+</section> -->
 
 <section data-id="{{ page.tab_title2 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_topic_noetic.md %}
 </section>
 
-<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title3 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_topic_dashing.md %}
-</section>
+</section> -->
 
-<section data-id="{{ page.tab_title4 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_topic_foxy.md %}
-</section>
+</section> -->
 
 <section data-id="{{ page.tab_title5 }}" class="tab_contents">
 Not supported
 {: .notice--warning}
 </section>
 
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+Not supported
+{: .notice--warning}
+</section>
+
 ### [Service](#service)
 
-<section data-id="{{ page.tab_title1 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title1 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_service_kinetic.md %}
-</section>
+</section> -->
 
 <section data-id="{{ page.tab_title2 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_service_noetic.md %}
 </section>
 
-<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title3 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_service_dashing.md %}
-</section>
+</section> -->
 
-<section data-id="{{ page.tab_title4 }}" class="tab_contents">
+<!-- <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/openmanipulator_x/controller/msg_list_service_foxy.md %}
-</section>
+</section> -->
 
 <section data-id="{{ page.tab_title5 }}" class="tab_contents">
+Not supported
+{: .notice--warning}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
 Not supported
 {: .notice--warning}
 </section>
